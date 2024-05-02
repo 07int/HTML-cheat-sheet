@@ -1,1 +1,31 @@
+table {
+    border-collapse: collapse; /* 合併邊框，使其看起來更整潔 */
+    width: 100%; /* 設定表格寬度為100% */
+}
+
+th, td {
+    border: 1px solid brown; /* 設定所有表頭和表格內容的邊框為1像素寬的實線，顏色為灰色 */
+    padding: 8px; /* 設定內容與邊框的間距為8像素 */
+}
+
+th {
+    background-color: lightgreen; /* 設定表頭的背景色為淺灰色 */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+tr:nth-child(even) {
+    background-color: lightyellow; /* 設定偶數行的背景色為淺灰色 */
+}
+
+tr {
+    height: 50px; /* 將每個 <tr> 元素中的格子高度設置為50像素 */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: coral;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
